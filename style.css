@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h3,
+h1 {
+    margin: 0   ;
+}
+
+li {
+    list-style: none;
+}
+header,
+footer, 
+.first-section {
+background-color: #1F2937;
+color: #fff;
+}
+header {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    gap: 8px;
+}
+
+.first-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    gap: 32vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 28vh;
+}
+
+button {
+    max-width: 12vh;
+    height: 3vh;
+    border: 0;
+    border-radius: 10%;
+    background-color: #3882F6;
+    color: white;
+}
+
+.img-placeholder {
+    background-color: rgb(85, 84, 84);
+    height: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.divider {
+    display: flex;
+    gap: 100px;
+}
+.box-one {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box {
+    border: 2px solid #3882F6;
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+}
+
+.second-section h1 {
+    margin: 60px;
+}
+
+.third-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3881f667;
+}
+
+.quote {
+    max-width: 90vh;
+    font-style: italic;
+    font-size: 38px;
+    font-family: 'Roboto';
+}
+.third-divide {
+    display: flex;
+    flex-direction: column;
+}
+.signature {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+.fourth-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.blue-box {
+    width: 800px;
+    height: 200px;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #3882F6;
+    border-radius: 2%;
+}
+.blue-box button {
+    border: 1px solid #fff;
+    width: 16vh;
+}
